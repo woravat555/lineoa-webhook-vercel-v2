@@ -1,0 +1,15 @@
+{
+  "name": "lineoa-webhook-vercel-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/health.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

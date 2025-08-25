@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/health",
+      "dest": "/api/health.js"
+    },
+    {
+      "src": "/api/line-webhook",
+      "dest": "/api/line-webhook.js"
+    }
+  ]
+}
