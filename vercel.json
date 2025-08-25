@@ -1,11 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/line-webhook.js": {
-      "runtime": "nodejs20.x"
-    },
-    "api/health.js": {
-      "runtime": "nodejs20.x"
-    }
+    "api/line-webhook.js": { "runtime": "nodejs20.x" },
+    "api/health.js":       { "runtime": "nodejs20.x" }
   }
 }
